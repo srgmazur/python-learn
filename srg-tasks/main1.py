@@ -1,0 +1,12 @@
+print('')
+print("we would like to get your personal data in order to generate your personal card")
+print('')
+name = input("Enter your name: ")
+surname = input("Enter your last name: ")
+age = input("How old are you, buddy? ")
+city = input("Were are you from, nomad? ")
+print('')
+print("Your personal card is ready, please check it out")
+print('')
+list = ['Name: ' + name, 'Surname: ' + surname.capitalize(), 'Age: ' + age, 'City: ' + city]
+print(list)
